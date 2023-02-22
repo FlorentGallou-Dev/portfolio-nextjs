@@ -1,0 +1,51 @@
+.link{
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
+    place-self: center;
+    color: cornflowerblue;
+    text-decoration: none;
+    border: 1px solid #ffffff00;
+    transition: all 0.15s ease-in-out;
+}
+
+.link:hover{
+    transform: scale(1.02);
+    border-color: #fc4837ff;
+    box-shadow: 0 0 3px 0 #fc4837;
+}
+
+.card{
+    display: block;
+    background-color:  #3a2d3e;
+    color:#35d827;
+    width: fit-content;
+    padding: 1rem;
+}
+
+.cartouche{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.text{
+    width: fit-content;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.ul{
+    border-top: 1px solid #fc4835;
+    list-style: none;
+    padding: 2em 0 0 0;
+}
+
+.li{
+    display: inline-block;
+    margin: 1em;
+}
